@@ -19,7 +19,7 @@ public class SProfileServlet extends HttpServlet {
         if(session!=null){
             String name=(String)session.getAttribute("name");
 
-            out.print("Hello, "+name+" Welcome to Profile");
+            out.print("Hello, " + name + " Welcome to Profile");
         }
         else{
             out.print("Please login first");

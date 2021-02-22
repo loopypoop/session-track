@@ -105,32 +105,32 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
 <!--    Sessions Login/Logout-->
     <servlet>
         <description></description>
-        <display-name>SessionLoginServlet</display-name>
-        <servlet-name>SessionLoginServlet</servlet-name>
+        <display-name>SLoginServlet</display-name>
+        <servlet-name>SLoginServlet</servlet-name>
         <servlet-class>iitu.session.sessionsLoginLogout.SLoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SessionLoginServlet</servlet-name>
-        <url-pattern>/SessionLoginServlet</url-pattern>
+        <servlet-name>SLoginServlet</servlet-name>
+        <url-pattern>/SLoginServlet</url-pattern>
     </servlet-mapping>
     <servlet>
         <description></description>
-        <display-name>SessionProfileServlet</display-name>
-        <servlet-name>SessionProfileServlet</servlet-name>
+        <display-name>SProfileServlet</display-name>
+        <servlet-name>SProfileServlet</servlet-name>
         <servlet-class>iitu.session.sessionsLoginLogout.SProfileServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SessionProfileServlet</servlet-name>
-        <url-pattern>/SessionProfileServlet</url-pattern>
+        <servlet-name>SProfileServlet</servlet-name>
+        <url-pattern>/SProfileServlet</url-pattern>
     </servlet-mapping>
     <servlet>
         <description></description>
-        <display-name>SessionLogoutServlet</display-name>
-        <servlet-name>SessionLogoutServlet</servlet-name>
+        <display-name>SLogoutServlet</display-name>
+        <servlet-name>SLogoutServlet</servlet-name>
         <servlet-class>iitu.session.sessionsLoginLogout.SLogoutServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>SessionLogoutServlet</servlet-name>
-        <url-pattern>/SessionLogoutServlet</url-pattern>
+        <servlet-name>SLogoutServlet</servlet-name>
+        <url-pattern>/SLogoutServlet</url-pattern>
     </servlet-mapping>
 </web-app>
